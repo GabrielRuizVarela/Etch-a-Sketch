@@ -42,7 +42,7 @@ main{
     gap: 20px;
 }
 
-.grid-container{
+.gridContainer{
     display: grid;
     height: 500px; 
     width: 500px;
@@ -52,10 +52,10 @@ main{
     box-shadow: rgba(0, 0, 0, 0.362) 0px 3px 8px;
 }
 .item{
-  
+  /* display: block; */
 }
 
-label{
+.sizeValue{
     margin-bottom: -20px;
 }
 
@@ -66,6 +66,11 @@ button, .slider{
 
 button{
     border-radius: 50%;
+}
+
+.active{
+    color: white;
+    background-color: #333333;
 }
 
 .slider{
@@ -136,11 +141,11 @@ a{
       gap: 16px;
     }
   
-    .size-value {
+    .sizeValue {
       margin-bottom: -4px;
     }
   
-    .grid-container {
+    .gridContainer {
       width: 400px;
       height: 400px;
     }
@@ -155,7 +160,7 @@ a{
       flex-direction: column-reverse;
     }
   
-    .grid-container {
+    .gridContainer {
       width: 300px;
       height: 300px;
     }
