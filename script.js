@@ -15,6 +15,7 @@ colorPicker.addEventListener("change", setCurrentColor);
 clearButton.addEventListener("click",clearGrid);
 eraseButton.addEventListener("click",eraseMode);
 gridSlider.addEventListener("mousemove",updateLabel);
+gridSlider.addEventListener("change",updateLabel);
 gridSlider.addEventListener("change",changeSize);
 
 function updateLabel(){
