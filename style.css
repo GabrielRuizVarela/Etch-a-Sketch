@@ -16,7 +16,7 @@ html {
 }
 
 body{
-    background-color:rgba(0, 0, 0, 0.149);
+    background-color:rgba(81, 83, 165, 0.151);
     margin-bottom: 100px;
 }
 .title{
@@ -64,6 +64,10 @@ button, .slider{
     padding: 5px 20px;
 }
 
+button{
+    border-radius: 50%;
+}
+
 .slider{
     accent-color: rgb(43, 40, 40);
 }
@@ -71,10 +75,18 @@ button, .slider{
 button:hover, .slider:hover, #colorPicker:hover{
     transform: scale(1.05);
 }
-
+input[type='color']::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
 #colorPicker{
-    width: 100%;
-    padding: 0px 20px;
+    /* width: 100%; */
+    padding: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* box-sizing: 0; */
+    overflow: hidden;
+    /* border: none; */
 }
 
 h1{
